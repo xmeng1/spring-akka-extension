@@ -6,7 +6,7 @@
 
     <groupId>mengxin.science.spring</groupId>
     <artifactId>spring-akka-extension</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 
     <properties>
         <spring.version>5.0.8.RELEASE</spring.version>
@@ -45,4 +45,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-mengxin-spring-tool</id>
+            <name>mengxin-spring-tool</name>
+            <url>https://api.bintray.com/maven/mengxin/spring-tool/spring-akka-extension/;publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
