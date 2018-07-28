@@ -4,7 +4,6 @@ AKKA + Spring
 
 idea from : [Introduction to Spring with Akka](http://www.baeldung.com/akka-with-spring)
 
-
 # Usage
 
 ## 1. Create Spring Boot project
